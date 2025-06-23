@@ -8,10 +8,9 @@ import { useTheme } from '@/context/themeContext';
 
 interface ProductCardProps {
   product: Product;
-  viewType?: 'grid' | 'list';
 }
 
-export default function ProductCard({ product, viewType = 'grid' }: ProductCardProps) {
+export default function ProductCard({ product }: ProductCardProps) {
   const { theme } = useTheme();
 
   return (

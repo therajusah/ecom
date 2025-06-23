@@ -58,11 +58,7 @@ npm run dev
 ## Responsive Design
 
 The application is fully responsive:
-- Desktop: 4 products per row
-- Tablet: 3 products per row
-- Mobile: 1 product per row (stacked vertically)
 
-## Screenshots
 
 
 

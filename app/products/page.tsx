@@ -6,7 +6,6 @@ import { useTheme } from '@/context/themeContext';
 
 export default function ProductsPage() {
   const { theme } = useTheme();
-  const viewType = 'grid';
   
   return (
     <div className="container mx-auto px-4 py-8 max-w-7xl">
@@ -20,7 +19,6 @@ export default function ProductsPage() {
             <ProductCard 
               key={product.id} 
               product={product}
-              viewType={viewType} 
             />
           ))}
         </div>
